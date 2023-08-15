@@ -8,11 +8,7 @@ const FONT_COLOR_LIGHT = 'white';
 /** @const {string} The font color used with light backgrounds. */
 const FONT_COLOR_DARK = '#202124';
 
-const fontColor =
-          isColorLight(value) ? FONT_COLOR_DARK : FONT_COLOR_LIGHT;
-      domElement.style.setProperty('--passview-font-color', fontColor);
-      break;
-
+const fontColor = isColorLight(value) ? FONT_COLOR_DARK : FONT_COLOR_LIGHT;
 
 const isColorLight = (color) => {
 
