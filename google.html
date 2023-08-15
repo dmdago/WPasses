@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Google Wallet Pass</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Material+Icons&display=block">
+    <link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v01480ab0f36db59e4033b3554acd76a679317609de08cca4b3664f0498a344aa/developers/css/app.css">    
+    <link href="https://developers.google.com/static/wallet/site-assets/css/pass-preview.css" rel="stylesheet" />
+  </head>
+<body>
+  <div class="pass-view-group event light">
+    <div id="pass-overlay" class="pass-overlay"></div>
+    <div id="pass-view" class="pass-view event">
+      <div class="head">
+        <div class="title-bar">
+          <div class="logo-wrapper">
+            <div class="logo">
+              <img id="logo-image" class="logo-image"
+                src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=660&h=660"
+                alt="Event logo" />
+              <p id="logo-text-placeholder">G</p>
+            </div>
+          </div>
+          <div class="card-title" >Saffire Pass</div>
+        </div>
+        <div class="dim-divider" style="height: 1px"></div>
+        <div style="height: 10px"></div>
+        <div class="header">
+          <div class="main-header">Saffire Pass</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-item start-item">
+          <div class="row-label">
+            Date
+          </div>
+          <div class="row-label-value" id="event-date" > 02/02/2023
+          </div>
+        </div>
+        <div class="row-item middle-item">
+        </div>
+        <div class="row-item end-item">
+          <div class="row-label">
+            Time
+          </div>
+          <div class="row-label-value" id="event-time"> 11:30
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-item start-item">
+          <div class="row-label">
+            Gate
+          </div>
+          <div class="row-label-value"> 3A
+          </div>
+        </div>
+        <div class="row-item middle-item">
+          <div class="row-label">
+            Section
+          </div>
+          <div class="row-label-value"> 40
+          </div>
+        </div>
+        <div class="row-item end-item">
+          <div class="row-label">
+            Row / Seat
+          </div>
+          <div class="row-label-value">
+            <span>G</span> /
+            <span> 5</span>
+          </div>
+        </div>
+      </div>
+      <div style="height: 6px"></div>
+      <div id="info-rows-barcode-separator" style="height: 10px"></div>
+      <div class="barcode">
+        <div id="barcode-container" class="barcode-wrapper">
+          <img class="barcode-img qr" barcode-type="QR_CODE" style="display: block;" src="https://api.qrserver.com/v1/create-qr-code/?data=Saffire&amp;size=100x100" alt="Saffire">
+        </div>
+      </div>
+      <span class="barcode-alternate-text"></span>
+      <div style="height: 10px"></div>
+      <img id="hero-image" class="hero-image" src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&h=336"
+        alt="events banner"></img>
+    </div>
+  </div>
+</body>
+</html>
