@@ -1,7 +1,7 @@
 # WPasses
 
 Logic to set font color base on bg color
-
+```
 /** @const {string} The font color used with dark backgrounds. */
 const FONT_COLOR_LIGHT = 'white';
 
@@ -29,4 +29,5 @@ const isColorLight = (color) => {
       parseInt(b, 16) * blueLumaCoefficient) / 1000;
 
       return brightness > lightLumaThreshold;
-    }![image](https://github.com/dmdago/WPasses/assets/56852037/165705c8-ff5e-444b-bfe2-9ccb316ae9d1)
+    }
+```
